@@ -1,0 +1,59 @@
+#body{
+    background-color: red;
+    background-image: -webkit-linear-gradient( right, #8E0E00, #1F1C18);
+    font-family: 'Times New Roman', Times, serif;
+}
+#braboButton{
+    border-radius: 5px;
+}
+#title{
+    color:white;
+    text-align: center;
+    background-color: #1a0008;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 5% 35% 0%;
+    width: 30%;
+
+}
+#container{
+    width: 30%;
+    height: 500px;
+    background-color: white;
+    margin: 0% 35%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#price{
+    margin: 0% 10%;
+    font-size: 150%;
+    width: 80%;
+}
+#peopleSharing{
+    margin: 0% 10%;
+    font-size: 150%;
+    width: 80%;
+}
+#foodRate{
+    font-size: 200%;
+    margin: 0% 10%;
+    border-radius: 8px;
+}
+#braboButton{
+    margin: 10% auto;
+    display: block;
+    font-size: 200%;
+    border-radius: 5px;
+    color: white;
+    background-color: #660033;
+    font-family: 'Times New Roman', Times, serif;
+}
+#resultDiv{
+    font-size: 200%;
+    display: block;
+    text-align: center;
+}
+p{
+    font-size:140%;
+    margin: 0% 3% 0%;
+}

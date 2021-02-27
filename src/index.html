@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body id="body">
+    <script type="text/javascript" src="scripting.js"></script>
+    <h1 id="title">Tip calculator</h1>
+    <div id="container">
+        <br><p>How Much Was Your Bill?</p>
+        <input id="price" type="int" placeholder="Bill Value"><br><br>
+        <p>How Was Your Service? </p>
+        <select id="foodRate">
+            <option value="0">-- Select an Option --</option>
+            <option value="0.3">30% - Awesome</option>
+            <option value="0.2">20% - Good</option>
+            <option value="0.15">15% - OK</option>
+            <option value="0.1">10% - Bad</option>
+            <option value="0.05">5% - Horrible</option>
+        </select><br><br>
+        <p>How many People are sharing the bill? </p>
+        <input id="peopleSharing" type="int" placeholder="People Amount"><br>
+        <button onclick="calculate()" id="braboButton">Calculate</button><br>
+        <div id="resultDiv">
+            <script>document.getElementById("resultDiv").style.display="none"</script>
+            $<span id="resultSpan">0.00</span>
+            <small>For each</small>
+        </div>
+    </div>
+    
+</body>
+</html>
